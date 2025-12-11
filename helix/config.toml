@@ -1,4 +1,4 @@
-theme = "onedark"
+theme = "github_dark_high_contrast"
 
 [editor]
 scrolloff = 1
