@@ -1,0 +1,176 @@
+{
+  // BUILTIN
+  "editor.fontSize": 13,
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 0,
+  "workbench.startupEditor": "none",
+  "workbench.enableExperiments": false,
+  "editor.semanticHighlighting.enabled": true,
+  "terminal.integrated.minimumContrastRatio": 1,
+  "window.titleBarStyle": "custom",
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+  },
+  // Vim
+  "vim.leader": "<space>",
+  "vim.hlsearch": true,
+  "vim.showcmd": false,
+  "vim.useSystemClipboard": true,
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.duration": 1000,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "k"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "<leader>"
+      ],
+      "commands": [
+        "workbench.action.showCommands"
+      ],
+    },
+    {
+      "before": [
+        "<C-h>"
+      ],
+      "after": [
+        "<C-w>",
+        "h"
+      ]
+    },
+    {
+      "before": [
+        "<C-j>"
+      ],
+      "after": [
+        "<C-w>",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "<C-k>"
+      ],
+      "after": [
+        "<C-w>",
+        "k"
+      ]
+    },
+    {
+      "before": [
+        "<C-l>"
+      ],
+      "after": [
+        "<C-w>",
+        "l"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "f",
+        "n"
+      ],
+      "commands": [
+        "workbench.action.toggleSidebarVisibility"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "f",
+        "f"
+      ],
+      "commands": [
+        "workbench.action.quickOpen"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "f",
+        "o"
+      ],
+      "commands": [
+        "workbench.action.gotoSymbol"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "f",
+        "O"
+      ],
+      "commands": [
+        "workbench.action.showAllSymbols"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "f",
+        "w"
+      ],
+      "commands": [
+        "workbench.action.findInFiles"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "t",
+        "n"
+      ],
+      "commands": [
+        "workbench.view.explorer"
+      ]
+    },
+  ],
+  // Catppuccin
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "catppuccin.accentColor": "blue",
+  "catppuccin.colorOverrides": {
+    "mocha": {
+      "base": "#11111b",
+      "mantle": "#11111b",
+      "crust": "#11111b",
+    },
+  },
+  "catppuccin.boldKeywords": true,
+  "catppuccin.bracketMode": "rainbow",
+  "catppuccin.customUIColors": {
+    "mocha": {
+      "editorLineNumber.foreground": "surface0",
+      "editorLineNumber.activeForeground": "green",
+      "widget.border": "accent",
+    },
+  },
+  "catppuccin.extraBordersEnabled": true,
+  "catppuccin.italicComments": true,
+  "catppuccin.italicKeywords": true,
+  "catppuccin.syncWithIconPack": true,
+  "catppuccin.workbenchMode": "default",
+  // Catppuccin Icon
+  "workbench.iconTheme": "catppuccin-mocha",
+  "catppuccin-icons.associations.extensions": {},
+  "catppuccin-icons.associations.files": {},
+  "catppuccin-icons.associations.folders": {},
+  "catppuccin-icons.associations.languages": {},
+  "catppuccin-icons.hidesExplorerArrows": false,
+  "catppuccin-icons.monochrome": false,
+  "catppuccin-icons.specificFolders": true,
+}

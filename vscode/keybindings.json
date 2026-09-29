@@ -1,0 +1,11 @@
+[
+  {
+    "key": "ctrl+alt+t",
+    "command": "workbench.action.createTerminalEditor",
+  },
+  {
+    "key": "escape",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "sideBarFocus"
+  },
+]
