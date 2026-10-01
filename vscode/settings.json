@@ -1,7 +1,6 @@
 {
   // BUILTIN
   "workbench.colorTheme": "Dark Knight Nordic",
-  "workbench.iconTheme": "catppuccin-mocha",
   "editor.fontSize": 13,
   "editor.tabSize": 2,
   "editor.minimap.enabled": false,
