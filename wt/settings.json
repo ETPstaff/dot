@@ -32,7 +32,7 @@
     {
         "defaults": 
         {
-            "colorScheme": "Catppuccin Mocha",
+            "colorScheme": "Nordic",
             "font": 
             {
                 "face": "JetBrainsMono Nerd Font",
@@ -70,75 +70,6 @@
     "schemes": 
     [
         {
-            "background": "#303446",
-            "black": "#51576D",
-            "blue": "#8CAAEE",
-            "brightBlack": "#626880",
-            "brightBlue": "#8CAAEE",
-            "brightCyan": "#81C8BE",
-            "brightGreen": "#A6D189",
-            "brightPurple": "#F4B8E4",
-            "brightRed": "#E78284",
-            "brightWhite": "#A5ADCE",
-            "brightYellow": "#E5C890",
-            "cursorColor": "#F2D5CF",
-            "cyan": "#81C8BE",
-            "foreground": "#C6D0F5",
-            "green": "#A6D189",
-            "name": "Catppuccin Frappe",
-            "purple": "#F4B8E4",
-            "red": "#E78284",
-            "selectionBackground": "#626880",
-            "white": "#B5BFE2",
-            "yellow": "#E5C890"
-        },
-        {
-            "background": "#EFF1F5",
-            "black": "#5C5F77",
-            "blue": "#1E66F5",
-            "brightBlack": "#ACB0BE",
-            "brightBlue": "#1E66F5",
-            "brightCyan": "#179299",
-            "brightGreen": "#40A02B",
-            "brightPurple": "#EA76CB",
-            "brightRed": "#D20F39",
-            "brightWhite": "#BCC0CC",
-            "brightYellow": "#DF8E1D",
-            "cursorColor": "#DC8A78",
-            "cyan": "#179299",
-            "foreground": "#4C4F69",
-            "green": "#40A02B",
-            "name": "Catppuccin Latte",
-            "purple": "#EA76CB",
-            "red": "#D20F39",
-            "selectionBackground": "#ACB0BE",
-            "white": "#ACB0BE",
-            "yellow": "#DF8E1D"
-        },
-        {
-            "background": "#24273A",
-            "black": "#494D64",
-            "blue": "#8AADF4",
-            "brightBlack": "#5B6078",
-            "brightBlue": "#8AADF4",
-            "brightCyan": "#8BD5CA",
-            "brightGreen": "#A6DA95",
-            "brightPurple": "#F5BDE6",
-            "brightRed": "#ED8796",
-            "brightWhite": "#A5ADCB",
-            "brightYellow": "#EED49F",
-            "cursorColor": "#F4DBD6",
-            "cyan": "#8BD5CA",
-            "foreground": "#CAD3F5",
-            "green": "#A6DA95",
-            "name": "Catppuccin Macchiato",
-            "purple": "#F5BDE6",
-            "red": "#ED8796",
-            "selectionBackground": "#5B6078",
-            "white": "#B8C0E0",
-            "yellow": "#EED49F"
-        },
-        {
             "background": "#11111B",
             "black": "#45475A",
             "blue": "#89B4FA",
@@ -160,79 +91,33 @@
             "selectionBackground": "#585B70",
             "white": "#BAC2DE",
             "yellow": "#F9E2AF"
+        },
+        {
+            "name": "Nordic",
+            "cursorColor": "#C0C8D8",
+            "selectionBackground": "#2E3440",
+            "background": "#191d24",
+            "foreground": "#bbc3d4",
+            "black": "#1e222a",
+            "brightBlack": "#2e3440",
+            "red": "#BF616A",
+            "brightRed": "#C5727A",
+            "green": "#A3BE8C",
+            "brightGreen": "#B1C89D",
+            "yellow": "#EBCB8B",
+            "brightYellow": "#EFD49F",
+            "blue": "#5E81AC",
+            "brightBlue": "#88C0D0",
+            "purple": "#B48EAD",
+            "brightPurple": "#BE9DB8",
+            "cyan": "#8FBCBB",
+            "brightCyan": "#9FC6C5",
+            "white": "#C0C8D8",
+            "brightWhite": "#D8DEE9",
         }
     ],
     "themes": 
     [
-        {
-            "name": "Catppuccin Frappe",
-            "tab": 
-            {
-                "background": "#303446FF",
-                "iconStyle": "default",
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "tabRow": 
-            {
-                "background": "#292C3CFF",
-                "unfocusedBackground": "#232634FF"
-            },
-            "window": 
-            {
-                "applicationTheme": "dark",
-                "experimental.rainbowFrame": false,
-                "frame": null,
-                "unfocusedFrame": null,
-                "useMica": false
-            }
-        },
-        {
-            "name": "Catppuccin Latte",
-            "tab": 
-            {
-                "background": "#EFF1F5FF",
-                "iconStyle": "default",
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "tabRow": 
-            {
-                "background": "#E6E9EFFF",
-                "unfocusedBackground": "#DCE0E8FF"
-            },
-            "window": 
-            {
-                "applicationTheme": "light",
-                "experimental.rainbowFrame": false,
-                "frame": null,
-                "unfocusedFrame": null,
-                "useMica": false
-            }
-        },
-        {
-            "name": "Catppuccin Macchiato",
-            "tab": 
-            {
-                "background": "#24273AFF",
-                "iconStyle": "default",
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "tabRow": 
-            {
-                "background": "#1E2030FF",
-                "unfocusedBackground": "#181926FF"
-            },
-            "window": 
-            {
-                "applicationTheme": "dark",
-                "experimental.rainbowFrame": false,
-                "frame": null,
-                "unfocusedFrame": null,
-                "useMica": false
-            }
-        },
         {
             "name": "Catppuccin Mocha",
             "tab": 
@@ -246,6 +131,29 @@
             {
                 "background": "#181825FF",
                 "unfocusedBackground": "#11111BFF"
+            },
+            "window": 
+            {
+                "applicationTheme": "dark",
+                "experimental.rainbowFrame": false,
+                "frame": null,
+                "unfocusedFrame": null,
+                "useMica": false
+            }
+        },
+        {
+            "name": "Nordic",
+            "tab": 
+            {
+                "background": "#242933",
+                "iconStyle": "default",
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "tabRow": 
+            {
+                "background": "#242933",
+                "unfocusedBackground": "#242933"
             },
             "window": 
             {

@@ -1,5 +1,7 @@
 {
   // BUILTIN
+  "workbench.colorTheme": "Dark Knight Nordic",
+  "workbench.iconTheme": "catppuccin-mocha",
   "editor.fontSize": 13,
   "editor.tabSize": 2,
   "editor.minimap.enabled": false,
@@ -141,7 +143,6 @@
     },
   ],
   // Catppuccin
-  "workbench.colorTheme": "Catppuccin Mocha",
   "catppuccin.accentColor": "blue",
   "catppuccin.colorOverrides": {
     "mocha": {
@@ -165,7 +166,6 @@
   "catppuccin.syncWithIconPack": true,
   "catppuccin.workbenchMode": "default",
   // Catppuccin Icon
-  "workbench.iconTheme": "catppuccin-mocha",
   "catppuccin-icons.associations.extensions": {},
   "catppuccin-icons.associations.files": {},
   "catppuccin-icons.associations.folders": {},
