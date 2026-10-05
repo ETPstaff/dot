@@ -1,6 +1,6 @@
 {
   // BUILTIN
-  "workbench.colorTheme": "Dark Knight Nordic",
+  "workbench.colorTheme": "Catppuccin Mocha",
   "editor.fontSize": 13,
   "editor.tabSize": 2,
   "editor.minimap.enabled": false,
@@ -173,4 +173,14 @@
   "catppuccin-icons.hidesExplorerArrows": false,
   "catppuccin-icons.monochrome": false,
   "catppuccin-icons.specificFolders": true,
+  "workbench.iconTheme": "catppuccin-mocha",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
