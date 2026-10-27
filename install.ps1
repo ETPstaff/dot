@@ -359,7 +359,7 @@ function Invoke-DotfilesSetup {
       Name      = "PowerShell (built-in)"
       Installed = { (Test-Command powershell) }
       Links     = [ordered]@{
-        "$dotfilesRoot\WindowsPowerShell" = "$env:USERPROFILE\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1"
+        "$dotfilesRoot\WindowsPowerShell\Microsoft.PowerShell_profile.ps1" = "$env:USERPROFILE\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1"
       }
     }
     @{
