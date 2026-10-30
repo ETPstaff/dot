@@ -3,23 +3,72 @@
   "editor.fontFamily": "'JetBrainsMono Nerd Font', Monaco, menlo, Consolas",
   "editor.fontSize": 13,
   "editor.tabSize": 2,
+  "editor.lineHeight": 1.618,
   "editor.minimap.enabled": false,
-  "window.zoomLevel": -0.13,
+  "editor.renderWhitespace": "none",
+  "editor.codeLens": false,
+  "editor.occurrencesHighlight": "off",
+  "editor.largeFileOptimizations": true,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.cursorBlinking": "solid",
+  "editor.stickyScroll.enabled": false,
+  "editor.lightbulb.enabled": "off",
+  "editor.inlineSuggest.enabled": false,
+  "editor.hover.delay": 600,
+  "git.enabled": true,
+  "git.autofetch": false,
+  "git.autorefresh": false,
+  "git.decorations.enabled": false,
+  "npm.autoDetect": "off",
+  "task.autoDetect": "off",
+  "typescript.tsc.autoDetect": "off",
+  "gulp.autoDetect": "off",
+  "grunt.autoDetect": "off",
+  "jake.autoDetect": "off",
+  "window.zoomLevel": -0.65,
+  "explorer.autoReveal": false,
   "workbench.startupEditor": "none",
   "workbench.enableExperiments": false,
-  "editor.semanticHighlighting.enabled": true,
-  "terminal.integrated.minimumContrastRatio": 1,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 10,
   "window.titleBarStyle": "custom",
+  "window.restoreWindows": "none",
+  "update.mode": "manual",
+  "terminal.integrated.cursorBlinking": false,
+  "terminal.integrated.gpuAcceleration": "on",
+  "terminal.integrated.minimumContrastRatio": 1,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/build/**": true,
+    "**/.venv/**": true,
+    "**/__pycache__/**": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.jj": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/*.min.js": true
+  },
+  "extensions.autoUpdate": "off",
+  "extensions.autoCheckUpdates": false,
+  "telemetry.telemetryLevel": "off",
   "extensions.experimental.affinity": {
     "vscodevim.vim": 1
   },
   "[python]": {
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // Vim
@@ -31,54 +80,130 @@
   "vim.highlightedyank.duration": 1000,
   "vim.insertModeKeyBindings": [
     {
-      "before": ["j", "k"],
-      "after": ["<Esc>"]
+      "before": [
+        "j",
+        "k"
+      ],
+      "after": [
+        "<Esc>"
+      ]
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["<leader>", "<leader>"],
-      "commands": ["workbench.action.showCommands"]
+      "before": [
+        "<leader>",
+        "<leader>"
+      ],
+      "commands": [
+        "workbench.action.showCommands"
+      ],
     },
     {
-      "before": ["<C-h>"],
-      "after": ["<C-w>", "h"]
+      "before": [
+        "<C-h>"
+      ],
+      "after": [
+        "<C-w>",
+        "h"
+      ]
     },
     {
-      "before": ["<C-j>"],
-      "after": ["<C-w>", "j"]
+      "before": [
+        "<C-j>"
+      ],
+      "after": [
+        "<C-w>",
+        "j"
+      ]
     },
     {
-      "before": ["<C-k>"],
-      "after": ["<C-w>", "k"]
+      "before": [
+        "<C-k>"
+      ],
+      "after": [
+        "<C-w>",
+        "k"
+      ]
     },
     {
-      "before": ["<C-l>"],
-      "after": ["<C-w>", "l"]
+      "before": [
+        "<C-l>"
+      ],
+      "after": [
+        "<C-w>",
+        "l"
+      ]
     },
     {
-      "before": ["<leader>", "f", "n"],
-      "commands": ["workbench.action.toggleSidebarVisibility"]
+      "before": [
+        "<leader>",
+        "f",
+        "b"
+      ],
+      "commands": [
+        "workbench.action.showAllEditorsByMostRecentlyUsed"
+      ]
     },
     {
-      "before": ["<leader>", "f", "f"],
-      "commands": ["workbench.action.quickOpen"]
+      "before": [
+        "<leader>",
+        "f",
+        "n"
+      ],
+      "commands": [
+        "workbench.action.toggleSidebarVisibility"
+      ]
     },
     {
-      "before": ["<leader>", "f", "o"],
-      "commands": ["workbench.action.gotoSymbol"]
+      "before": [
+        "<leader>",
+        "f",
+        "f"
+      ],
+      "commands": [
+        "workbench.action.quickOpen"
+      ]
     },
     {
-      "before": ["<leader>", "f", "O"],
-      "commands": ["workbench.action.showAllSymbols"]
+      "before": [
+        "<leader>",
+        "f",
+        "o"
+      ],
+      "commands": [
+        "workbench.action.gotoSymbol"
+      ]
     },
     {
-      "before": ["<leader>", "f", "w"],
-      "commands": ["workbench.action.findInFiles"]
+      "before": [
+        "<leader>",
+        "f",
+        "O"
+      ],
+      "commands": [
+        "workbench.action.showAllSymbols"
+      ]
     },
     {
-      "before": ["<leader>", "t", "n"],
-      "commands": ["workbench.view.explorer"]
-    }
-  ]
+      "before": [
+        "<leader>",
+        "f",
+        "w"
+      ],
+      "commands": [
+        "workbench.action.findInFiles"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "t",
+        "n"
+      ],
+      "commands": [
+        "workbench.view.explorer"
+      ]
+    },
+  ],
 }
