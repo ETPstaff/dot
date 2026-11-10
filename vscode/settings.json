@@ -1,38 +1,27 @@
 {
-  // Builtin
+  //
+  // === BUILTIN ===
+  //
   "editor.fontFamily": "'JetBrainsMono Nerd Font', Monaco, menlo, Consolas",
   "editor.fontSize": 13,
   "editor.tabSize": 2,
   "editor.lineHeight": 1.618,
   "editor.minimap.enabled": false,
-  "editor.renderWhitespace": "none",
-  "editor.codeLens": false,
-  "editor.occurrencesHighlight": "off",
   "editor.largeFileOptimizations": true,
   "editor.semanticHighlighting.enabled": false,
   "editor.cursorBlinking": "solid",
-  "editor.stickyScroll.enabled": false,
-  "editor.lightbulb.enabled": "off",
   "editor.inlineSuggest.enabled": false,
   "editor.hover.delay": 600,
-  "git.enabled": true,
-  "git.autofetch": false,
-  "git.autorefresh": false,
-  "git.decorations.enabled": false,
-  "npm.autoDetect": "off",
-  "task.autoDetect": "off",
-  "typescript.tsc.autoDetect": "off",
-  "gulp.autoDetect": "off",
-  "grunt.autoDetect": "off",
-  "jake.autoDetect": "off",
   "window.zoomLevel": -0.65,
-  "explorer.autoReveal": false,
+  "workbench.activityBar.compact": true,
+  "workbench.settings.alwaysShowAdvancedSettings": true,
   "workbench.startupEditor": "none",
   "workbench.enableExperiments": false,
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.value": 10,
-  "window.titleBarStyle": "custom",
   "window.restoreWindows": "none",
+  "window.density.editorTabHeight": "compact",
+  "window.density.layout": "compact",
   "update.mode": "manual",
   "terminal.integrated.cursorBlinking": false,
   "terminal.integrated.gpuAcceleration": "on",
@@ -59,19 +48,29 @@
     "**/build": true,
     "**/*.min.js": true
   },
-  "extensions.autoUpdate": "off",
-  "extensions.autoCheckUpdates": false,
-  "telemetry.telemetryLevel": "off",
   "extensions.experimental.affinity": {
     "vscodevim.vim": 1
   },
   "[python]": {
-    "editor.tabSize": 4,
+    "editor.tabSize": 4
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  // Vim
+  "workbench.colorCustomizations": {
+    "[Dark 2026]": {
+      "editorHoverWidget.border": "#79c0ff",
+    },
+    "[Light 2026]": {
+      "editorHoverWidget.border": "#0550ae",
+    },
+    "[Catppuccin Mocha]": {
+      "editorHoverWidget.border": "#89b4fa",
+    },
+  },
+  // 
+  // === PLUGIN: VSCodeVim ===
+  //
   "vim.leader": "<space>",
   "vim.hlsearch": true,
   "vim.showcmd": false,
@@ -97,7 +96,7 @@
       ],
       "commands": [
         "workbench.action.showCommands"
-      ],
+      ]
     },
     {
       "before": [
@@ -204,6 +203,15 @@
       "commands": [
         "workbench.view.explorer"
       ]
-    },
+    }
   ],
+  //
+  // === PLUGIN: Jupyter ===
+  //
+  "notebook.cellFocusIndicator": "border",
+  "notebook.compactView": false,
+  "notebook.lineNumbers": "on",
+  "notebook.insertToolbarLocation": "notebookToolbar",
+  "notebook.showCellStatusBar": "visibleAfterExecute",
+  "notebook.output.scrolling": true,
 }
